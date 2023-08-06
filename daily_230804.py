@@ -127,26 +127,26 @@
 
 # 6485. 삼성시의 버스 노선
 
-import sys
-sys.stdin = open('input_6485.txt', 'r')
+# import sys
+# sys.stdin = open('input_6485.txt', 'r')
+#
+# T = int(input())
+# for tc in range(1, T+1):
+#     N = int(input())
+#     box = [0] * 5001
+#
+#     for i in range(N):
+#         A, B = map(int,input().split())
+#         for k in range(A, B+1):
+#             box[k-1] += 1
+#
+#     P = int(input())
+#     station = [0] * P
+#     for j in range(P):
+#         C = int(input())
+#         station[j] = box[C-1]
+#
+#     print(f'#{tc}', *station)
 
-T = int(input())
-for tc in range(1, T+1):
-    N = int(input())
-    box = [0] * 5001
-
-    for i in range(N):
-        A, B = map(int,input().split())
-        for k in range(A, B+1):
-            box[k-1] += 1
-
-    P = int(input())
-    station = [0] * P
-    for j in range(P):
-        C = int(input())
-        station[C-1] = box[C-1]
-
-    print(f'#{tc}', *station)
-
-    # station = [str(a) for a in station]
-    # ans = ' '.join(station)
+#     # station = [str(a) for a in station]
+#     # ans = ' '.join(station)
